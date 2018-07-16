@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+
+        <item name="android:actionBarStyle">@style/ThemeActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/ThemeActionBar</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
+
+    <style name="ThemeActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@null</item>
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+    </style>
+
+</resources>
